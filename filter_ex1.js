@@ -10,12 +10,11 @@ const arr = [23, 34, 76, 65, 54, 67, 6, 543];
 
 //Using the filter function
 
-function filterArr(n) {
+const ans = arr.filter(function (n) {
   if (n % 2 == 0) {
     return true;
   } else {
     return false;
   }
-}
-const ans = arr.filter(filterArr);
+});
 console.log(ans);

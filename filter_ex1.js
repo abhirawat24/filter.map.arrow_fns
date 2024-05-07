@@ -11,6 +11,7 @@ const arr = [23, 34, 76, 65, 54, 67, 6, 543];
 //Using the filter function
 
 const ans = arr.filter(function (n) {
+  //using the filter function on the array to get desired outcome
   if (n % 2 == 0) {
     return true;
   } else {
